@@ -15,3 +15,10 @@ $(function(){
 
 
 });
+
+//должно быть в HTML файле для данного примера.
+//В данном проекте не работает, поскольку нет поключения к базе. Является тестом для проекта https://github.com/Anna-the-racoon/Test-WebTestCore
+// <!-- <select id="countries">
+//     <option disabled>Выберите страну</option>
+// </select>
+// </div> -->

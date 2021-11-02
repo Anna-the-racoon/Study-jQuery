@@ -5,13 +5,15 @@
     <meta charset="utf-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-    <script src="C:\MyProjects\jQuerySTUDY\example.js"></script>
-    <script src="C:\MyProjects\jQuerySTUDY\table.js"></script>
-    <script src="C:\MyProjects\jQuerySTUDY\workWithJson.js"></script>
-    <script src="C:\MyProjects\jQuerySTUDY\stopEvent.js"></script>
+    <link src="C:\MyProjects\jQuerySTUDY\styles\modal.css"></link>
+
+    <!-- <script src="C:\MyProjects\jQuerySTUDY\example.js"></script>
+    <script src="C:\MyProjects\jQuerySTUDY\table.js"></script> -->
+    <!-- <script src="C:\MyProjects\jQuerySTUDY\workWithJson.js"></script> -->
+    <script src="C:\MyProjects\jQuerySTUDY\modalWindowTest.js"></script>
   </head>
   <body>
-    <div>
+    <!-- <div>
       <h2>Добро пожаловать в мир jQuery</h2>
       <button id="btn1">jQuery</button>
       <button id="btn2" onclick="alert('Мир JavaScript'); ">JavaScript</button>
@@ -23,24 +25,16 @@
         <tr><td><p>table</p></td><td><p>таблица</p></td></tr>
         <tr><td><p>apple</p></td><td><p>яблоко</p></td></tr>
       </table>
-    </div>
-    <div class="click">
-      <button>Жми</button>
-    </div>
+    </div> -->
     <div>
-      <select id="countries">
-          <option disabled>Выберите страну</option>
-      </select>
+      <button type="button">Жми</button>
+    </div>
+    <div class="popup-fade">
+    	<div class="popup">
+    		<a class="popup-close" href="#">Закрыть</a>
+    		<p>Всплывающие окна имеют широкий диапазон применений...</p>
+    	</div>
     </div>
 
-    <div id="loginPanel">
-  <form id="loginForm" method="post" action="Account/LogOn">
-    Логин: <input id="userName" type="text" />
-    Пароль: <input id="password" type="password" />
-    <input id="RememberMe" type="checkbox" />
-    запомнить <input type="submit" value="Логин" /><br/>
-    <span id="message"></span>
-  </form>
-</div>
   </body>
 </html>
